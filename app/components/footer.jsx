@@ -1,25 +1,17 @@
+'use client'
+
 import React from 'react'
 
 const footer = () => {
     return (
-        <div class="">
-            <nav class="footer">
-                <ul class="footer-below">
+            <nav className="footer">
+                <ul className="footer-below">
                     <li>
-                        <div class="logo-sm"></div>
-                        <h1 class="text-style-heading-sm">Brand name</h1>
-                    </li>
-                    <li class="footer-icons">
-                        <a class="icon-twitter"></a>
-                        <a class="icon-facebook"></a>
-                        <a class="icon-instagram"></a>
-                        <a class="icon-youtube"></a>
-                        <a class="icon-korus-outline"></a>
+                        <img src="/img/logo_nicequest_color_white.svg" alt="logo" />
                     </li>
                     <li>© Nicequest since 2005</li>
                 </ul>
             </nav>
-        </div>
     )
 }
 
