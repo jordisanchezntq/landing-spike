@@ -8,14 +8,14 @@ export default async function Home({
   const params = searchParams || {};
 
   // Search Params
-  const country = params.country
+  const country = params.co
   console.log(country)
 
   return (
     <>
-      <div className='flex flex-col'>
+      <div className='grid grid-cols-1 md:grid-cols-2'>
         <Cover />
-        <Form />
+        <Form co={country} />
       </div>
     </>
   );

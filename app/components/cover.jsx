@@ -11,6 +11,7 @@ const cover = () => {
         alt="cover"
         width={500}
         height={500}
+        priority
         />
     </div>
   )
