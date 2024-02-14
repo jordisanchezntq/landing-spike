@@ -1,6 +1,7 @@
 import Cover from './components/cover'
 import Form from './components/form';
 
+
 export default async function Home({
   searchParams,
 }) {
