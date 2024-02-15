@@ -2,10 +2,17 @@
 
 import Image from 'next/image'
 import React from 'react'
+import { singularSdk } from 'singular-sdk'
+import { singularEvents } from '../constants/singularEvents'
 
 const form = ({
     co
 }) => {
+    const handleRegistration = (e) => {
+        e.preventDefault();
+        singularSdk.event(singularEvents.ON_REGISTER);
+    }
+
   return (
     <section className='flex flex-col gap-5 items-center p-2'> 
         <Image src="/img/logo_nicequest.svg" alt="Nicequest" width={180} height={180} />
@@ -33,7 +40,8 @@ const form = ({
                 </div>
             </div>
             <div className="dark:bg-neutral-dark p-2">
-                <button    
+                <button
+                    onClick={handleRegistration}
                     className="button bg-brand4">
                     Registrate
                 </button>
