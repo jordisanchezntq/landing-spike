@@ -1,8 +1,6 @@
-'use client'
-
-import Script from 'next/script';
-import Cover from './components/cover'
-import Form from './components/form';
+import Cover from './ui/cover'
+import Form from './ui/form';
+import Steps from './ui/steps';
 
 // Singular
 import { initSingular } from './components/Recruitment/recruitmentTracking';
@@ -23,6 +21,7 @@ export default function Home({
         <Cover />
         <Form co={country} />
       </div>
+      <Steps />
     </>
   );
 }

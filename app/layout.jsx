@@ -1,5 +1,5 @@
 import "../public/css/one-panel.css";
-import Footer from "./components/footer";
+import Footer from "./ui/footer";
 
 export const metadata = {
   title: "Nicequest",
