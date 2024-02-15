@@ -1,5 +1,6 @@
-import Cover from './components/cover'
-import Form from './components/form';
+import Cover from './ui/cover'
+import Form from './ui/form';
+import Steps from './ui/steps';
 
 export default async function Home({
   searchParams,
@@ -16,6 +17,7 @@ export default async function Home({
         <Cover />
         <Form co={country} />
       </div>
+      <Steps />
     </>
   );
 }
