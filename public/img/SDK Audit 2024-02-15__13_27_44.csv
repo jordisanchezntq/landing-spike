@@ -1,0 +1,2 @@
+﻿App Name,App Bundle,Platform,Status,Site Creation Date,App Version,SDK Version,Validation Name,Validation Group,Type,Error Description
+Singular Test,net.singular.deviceassist2,Android,Production,10/09/2023,N/A,N/A,Session Event,Basic,Error,No sessions received for this app. Attribution won't work if sessions are not being tracked. Check that the SDK has been integrated correctly and that you are tracking sessions.
