@@ -7,7 +7,7 @@ const form = ({
     co
 }) => {
   return (
-    <section className='flex flex-col gap-5 items-center p-2'> 
+    <section className='flex flex-col gap-5 items-center p-10'> 
         <Image src="/img/logo_nicequest.svg" alt="Nicequest" width={180} height={180} />
         <form className='flex flex-col gap-5 flex-1 justify-center w-full max-w-lg p-6'>
             <h1 className='text-style-heading-xl text-neutral-dark dark:text-neutral font-bold'>
