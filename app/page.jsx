@@ -13,7 +13,7 @@ export default async function Home({
 
   return (
     <div>
-      <div className='h-[1480px] w-full relative grid grid-cols-1 md:grid-cols-2'>
+      <div className='h-full md:h-[1480px] w-full relative grid grid-cols-1 md:grid-cols-2'>
         <Cover />
         <Form co={country} />
         <Steps />

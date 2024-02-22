@@ -7,23 +7,23 @@ const form = ({
     co
 }) => {
   return (
-    <section className='flex flex-col gap-8 items-start pt-48 px-8'> 
+    <section className='flex flex-col gap-8 items-center md:items-start py-8 md:pt-48 px-8'> 
         <Image src="/img/logo_nicequest.svg" alt="Nicequest" width={180} height={180} />
         <form className='flex flex-col gap-5 flex-1 w-full max-w-lg'>
-            <h1 className='text-style-heading-xl text-neutral-dark dark:text-neutral font-bold'>
+            <h1 className='text-style-heading-xl text-neutral-dark dark:text-neutral font-bold text-center md:text-start'>
             Únete a Nicequest y realiza encuestas a cambio de regalos
             </h1>
             <div className="field w-full">
-                <label htmlFor="name">Name</label>
                 <input type="text" name="name" placeholder="Nombre" />
             </div>
             <div className="field w-full">
-                <label htmlFor="email">Email</label>
                 <input type="text" name="email" placeholder="Email" />
             </div>
             <div className="field w-full">
-                <label htmlFor="country">País de residencia</label>
-                <input type="text" name="country" placeholder={co} />
+                <input type="date" name="date" placeholder="Fecha nacimiento" />
+            </div>
+            <div className="field w-full">
+                <input type="text" name="country" placeholder="País de residencia" />
             </div>
             <div className="field">
                 <div className="input-checkbox flex items-center m-0">

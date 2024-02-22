@@ -5,11 +5,11 @@ import React from 'react'
 
 const cover = () => {
   return (
-    <div className='bg-brand flex justify-center items-start pt-48 px-2'>
+    <div className='bg-brand flex justify-center items-center md:items-start py-8 md:pt-48 px-8'>
         <Image
         src={"/img/target.png"}
         alt="cover"
-        width={500}
+        width={520}
         height={500}
         priority
         />
