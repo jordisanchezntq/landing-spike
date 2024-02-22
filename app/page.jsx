@@ -1,3 +1,5 @@
+'use client'
+
 import Cover from './ui/cover'
 import Form from './ui/form';
 import Steps from './ui/steps';

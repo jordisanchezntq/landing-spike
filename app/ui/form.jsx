@@ -2,7 +2,6 @@
 
 import Image from 'next/image'
 import React from 'react'
-import { singularSdk } from 'singular-sdk'
 import { singularEvents } from '../constants/singularEvents'
 
 const form = ({
