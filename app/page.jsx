@@ -12,13 +12,11 @@ export default async function Home({
   console.log(country)
 
   return (
-    <div className='relative'>
-      <div className='grid grid-cols-1 md:grid-cols-2 h-screen'>
+    <div>
+      <div className='h-[1480px] w-full relative grid grid-cols-1 md:grid-cols-2'>
         <Cover />
         <Form co={country} />
-        <div>
-          <Steps />
-        </div>
+        <Steps />
       </div>
     </div>
   );
